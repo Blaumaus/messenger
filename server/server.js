@@ -1,14 +1,8 @@
 // Imports
-import { port } from './config'
+import { port } from './_helpers/config'
 import express from 'express'
 import morgan from 'morgan'
-import mongoose from 'mongoose'
 import helmet from 'helmet'
-
-// DB connection
-// mongoose.connect(process.env.DB_CREDENTIALS, { useNewUrlParser: true, auth: {authdb:"admin"} })
-//    .then(db => console.log('[OK] DB is connected'))
-//    .catch(err => console.log(`[ERROR] Oops. Something went wrong while connecting to the database... \n ${err}`))
 
 // Init app
 const app = express()
