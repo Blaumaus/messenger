@@ -15,3 +15,11 @@
     background-color: black;
     color: white;
 }
+.header{
+    padding-left : 90px;
+    padding-bottom: 10px;
+}
+
+.container{
+    padding-left : 0px;
+}
