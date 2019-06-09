@@ -7,8 +7,6 @@ const schema = new Schema({
     trim: true,
     unique: true
   },
-  // TEMPORARILY SAVING PLAINTEXT PASSWORDS
-  // TODO: HASH PASSORDS WITH BCRYPT OR PBKDF2 HASHING ALGORITHM
   password: {
     type: String,
     required: true,
@@ -20,7 +18,7 @@ const schema = new Schema({
   },
   email: {
     type : String,
-    required: true,
+    required: false,
     trim: false
   }
 })
