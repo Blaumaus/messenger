@@ -1,25 +1,30 @@
-.login-zone{
-        height: 370px;
-        margin-top: auto;
-        margin-bottom: auto;
-        width: 400px;
+/* TODO: Make adaptive layout */
+
+.login-zone {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
 }
-.body{
+
+.body {
     height: 200px;
     width: 250px;
     margin-left: 70px;
 }
 
-.btn{
+.btn {
     margin-top: 10px;
     background-color: black;
     color: white;
 }
-.header{
-    padding-left : 90px;
+
+.header {
+    padding-left: 30px;
     padding-bottom: 10px;
+    width: 380px;
 }
 
-.container{
-    padding-left : 0px;
+.container {
+    padding-left: 0px;
 }
