@@ -17,6 +17,11 @@ const schema = new Schema({
   regDate: {
     type: Date,
     default: Date.now
+  },
+  email: {
+    type : String,
+    required: true,
+    trim: false
   }
 })
 
